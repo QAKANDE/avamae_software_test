@@ -2,7 +2,7 @@
 %clearfix:after {
     display: block;
     clear: both;
-    content: '';
+    content: "";
 }
 
 //----- Grid System
@@ -16,7 +16,7 @@ $grid-spacing: 1%;
     margin-bottom: 1.5rem;
 }
 
-[class^='col-'] {
+[class^="col-"] {
     float: left;
     margin-right: $grid-spacing;
     -webkit-box-sizing: border-box;
@@ -81,4 +81,8 @@ $grid-spacing: 1%;
 
 .menu {
     margin-left: 10rem;
+}
+
+.nav-menu {
+    text-decoration: none;
 }

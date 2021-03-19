@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-import '../Styles/Navbar.scss'
-import logo from '../Assets/Logo.svg'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "../Styles/Navbar.scss";
+import logo from "../Assets/Logo.svg";
 
 class Navbar extends Component {
-  state = {}
+  state = {};
   render() {
     return (
       <>
@@ -11,14 +12,26 @@ class Navbar extends Component {
           <div className="col-5">
             <img className="company-logo" src={logo} alt="Company logo" />
           </div>
-          <div className="col-1 menu">HOME</div>
-          <div className="col-1">ABOUT US</div>
-          <div className="col-1">CONTACT US</div>
+          <div className="col-1 menu ">
+            <Link to="/" className="nav-menu">
+              HOME
+            </Link>
+          </div>
+          <div className="col-1 ">
+            <Link to="/about-us" className="nav-menu">
+              ABOUT US
+            </Link>
+          </div>
+          <div className="col-1 ">
+            <Link to="/contact-us" className="nav-menu">
+              CONTACT US
+            </Link>
+          </div>
           <div className="col-1">Log in</div>
         </div>
       </>
-    )
+    );
   }
 }
 
-export default Navbar
+export default Navbar;
