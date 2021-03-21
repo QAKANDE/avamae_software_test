@@ -29,7 +29,6 @@
     content: "";
 }
 
-//----- Grid System
 $grid-spacing: 3%;
 .row {
     @extend %clearfix;

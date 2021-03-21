@@ -1,0 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/8b59d4b47037b08d452d8cb659cc2d53?family=Maison+Neue+Light);
+.App {
+    font-family: "Maison Neue Light", "Sans Serif";
+}
+
+button {
+    font-family: "Maison Neue Light", "Sans Serif";
+}
+
+input:focus,
+textarea:focus {
+    font-family: "Maison Neue Light", "Sans Serif";
+}

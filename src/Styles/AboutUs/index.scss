@@ -1,32 +1,45 @@
-.container {
-    padding-right: 5rem;
-    padding-left: 5rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
 .text-wrapper {
     text-align: left;
 }
 
 .aboutus-text {
     text-align: inherit;
+}
+
+#colored-text {
+    color: blue;
+    text-decoration: underline;
+}
+
+.about-us-second-paragraph-text-wrapper {
+    margin-top: 2.5rem;
+}
+
+#about-us-image {
+    width: 599px;
+    height: 400px;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.8%;
+}
+
+.about-us-paragraph-text {
+    padding-top: 1rem;
+    font-size: small;
+}
+
+.about-us-second-paragraph-text {
+    font-size: small;
+}
+
+.about-us-list-text-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-us-last-paragraph-wrapper {
+    margin-top: 2rem;
 }
