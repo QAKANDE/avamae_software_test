@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-import "../../Styles/Home/OurServices.scss";
+import "../../../Styles/Home/OurServices.scss";
 class OurServices extends Component {
   state = {};
   render() {
@@ -68,7 +69,9 @@ class OurServices extends Component {
             </div>
           </div>
           <div id="contact-us-btn-wrapper">
-            <button id="contact-us-btn">Contact us</button>
+            <Link to="/contact-us">
+              <button id="contact-us-btn">Contact us</button>
+            </Link>
           </div>
         </div>
       </>

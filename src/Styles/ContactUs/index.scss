@@ -85,6 +85,14 @@ textarea {
     color: #ffffff;
 }
 
+.show-address-details {
+    text-align: left;
+}
+
+#checkbox-container {
+    text-align: left;
+}
+
 #submit-btn {
     width: 576px;
     margin-top: 1.5rem;
@@ -104,10 +112,9 @@ textarea {
     color: #3d7bb8;
 }
 
-::selection {
-    background: #ffc7b8;
-}
-
+// ::selection {
+//     background: #ffc7b8;
+// }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -143,14 +150,57 @@ svg {
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: #ffffff;
-    width: 3%;
+    width: 5%;
     text-align: left;
 }
 
-// #svg-div {
-//     display: block;
-//     float: left;
-// }
-// #submit-text {
-//     display: block;
-// }
+#check-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5rem;
+    display: inline;
+    outline: none;
+    border: solid 2px grey;
+    background-color: white;
+}
+
+#add-address-btn-checked {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5rem;
+    display: inline;
+    outline: none;
+    border: solid 2px grey;
+    background-color: #3d7bb8;
+}
+
+#checkbox-wrapper {
+    display: inline;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.checkbox-input {
+    float: left;
+    margin: auto;
+}
+
+.checkbox-label {
+    margin: 5px 0px;
+    width: 200px;
+}
+
+.error {
+    color: red;
+}
+
+.error-message {
+    background: #eff7ff;
+    color: #3d7bb8;
+    text-align: center;
+}
+
+.error-text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

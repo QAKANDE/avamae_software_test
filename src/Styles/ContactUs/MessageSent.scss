@@ -1,0 +1,44 @@
+.message-sent-wrapper {
+    background-color: #e9f4da;
+    color: #73776c;
+    margin-top: 2rem;
+}
+
+.svg-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+// .treatment-method__icon__container {
+//     flex: 1 5 50%;
+//     margin: 5px;
+//     // height: 100px;
+// }
+.treatment-method__icon__outer_circle {
+    background-color: #8ec73d;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 16rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.treatment-methods_icon {
+    enable-background: new 0 0 1200 960;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #ffffff;
+    width: 50%;
+    text-align: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.5rem;
+}
+
+#message-sent-success-wrapper {
+    text-align: center;
+    padding-bottom: 2rem;
+}

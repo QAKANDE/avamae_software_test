@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 
-import "../../Styles/Home/LearnMore.scss";
-import learnMoreImage from "../../Assets/shutterstock_696636415.jpg";
+import "../../../Styles/Home/LearnMore.scss";
+import learnMoreImage from "../../../Assets/shutterstock_696636415.jpg";
 
 class LearnMore extends Component {
   state = {};
 
-  componentDidMount = () => {
-    console.log("data", this.props.dataForLearnMore);
-  };
   render() {
     return (
       <div className="container">

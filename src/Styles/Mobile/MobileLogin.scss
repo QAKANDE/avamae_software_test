@@ -1,0 +1,41 @@
+#mobile-login-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assets/shutterstock_1302552622.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mobile-login-text-wrapper {
+    width: auto;
+    height: auto;
+    border-radius: 1%;
+    text-align: center left;
+    background-color: #635c58;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    opacity: 0.5;
+}
+
+.mobile-login-text {
+    color: #ffffff;
+}
+
+#mobile-login-button {
+    margin-top: 2rem;
+    height: 50px;
+    width: 100%;
+    border: 0;
+    border-radius: 4%;
+    background-color: #eff7ff;
+    color: #6597c7;
+    font-size: large;
+    font-weight: bold;
+}

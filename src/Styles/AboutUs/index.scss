@@ -4,6 +4,7 @@
 
 .aboutus-text {
     text-align: inherit;
+    font-size: 11px;
 }
 
 #colored-text {
@@ -13,6 +14,10 @@
 
 .about-us-second-paragraph-text-wrapper {
     margin-top: 2.5rem;
+}
+
+#about-us-first-text {
+    font-weight: bolder;
 }
 
 #about-us-image {
@@ -28,11 +33,15 @@
 
 .about-us-paragraph-text {
     padding-top: 1rem;
-    font-size: small;
+    font-size: 11px;
 }
 
 .about-us-second-paragraph-text {
-    font-size: small;
+    font-size: 11px;
+}
+
+.about-us-second-paragraph-bold-text {
+    font-weight: bolder;
 }
 
 .about-us-list-text-wrapper {

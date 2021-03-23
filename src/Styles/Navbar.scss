@@ -1,10 +1,35 @@
+.navbar-container {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .navbar-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-container {
+        width: 1170px;
+    }
+}
+
 %clearfix:after {
     display: block;
     clear: both;
     content: "";
 }
 
-$grid-spacing: 1%;
+$grid-spacing: 10%;
 .row {
     @extend %clearfix;
     &+& {
@@ -26,7 +51,7 @@ $grid-spacing: 1%;
 }
 
 .company-logo {
-    width: 20%;
+    width: 30%;
 }
 
 .col-1 {
@@ -37,50 +62,34 @@ $grid-spacing: 1%;
     width: (100% / 6) - ($grid-spacing * 10 / 12);
 }
 
-.col-3 {
-    width: (100% / 4) - ($grid-spacing * 9 / 12);
-}
-
-.col-4 {
-    width: (100% / 3) - ($grid-spacing * 8 / 12);
-}
-
 .col-5 {
     width: (100% / 2.4) - ($grid-spacing * 7 / 12);
-}
-
-.col-6 {
-    width: (100% / 2) - ($grid-spacing * 6 / 12);
-}
-
-.col-7 {
-    width: (100% / 1.714285714285714) - ($grid-spacing * 5 / 12);
-}
-
-.col-8 {
-    width: (100% / 1.5) - ($grid-spacing * 4 / 12);
-}
-
-.col-9 {
-    width: (100% / 1.333333333333333) - ($grid-spacing * 3 / 12);
-}
-
-.col-10 {
-    width: (100% / 1.2) - ($grid-spacing * 2 / 12);
-}
-
-.col-11 {
-    width: (100% / 1.090909090909091) - ($grid-spacing * 1 / 12);
-}
-
-.col-12 {
-    width: 100%;
 }
 
 .menu {
     margin-left: 10rem;
 }
 
+.men {
+    margin-top: 0.3rem;
+}
+
 .nav-menu {
     text-decoration: none;
+    color: #323232;
+    font-weight: bolder;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
+
+#navbar-login-btn {
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    background: #eff7ff;
+    color: #3d7bb8;
+    font-weight: bolder;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 2px solid transparent;
+    outline: none;
 }

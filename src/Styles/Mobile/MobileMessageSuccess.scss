@@ -1,0 +1,32 @@
+.mobile-message-sent-wrapper {
+    background-color: #e9f4da;
+    color: #73776c;
+    margin-top: 2rem;
+}
+
+.mobile-svg-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-svg-outer_circle {
+    background-color: #8ec73d;
+    border-radius: 50%;
+    width: 8%;
+    height: 25px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.success-svg {
+    enable-background: new 0 0 1200 960;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #ffffff;
+    width: 50%;
+    text-align: center;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.5rem;
+}

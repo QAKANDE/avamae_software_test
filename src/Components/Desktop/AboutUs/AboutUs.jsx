@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import aboutUsImage from "../../Assets/shutterstock_696636415.jpg";
-import "../../Styles/AboutUs/index.scss";
+import aboutUsImage from "../../../Assets/shutterstock_696636415.jpg";
+import "../../../Styles/AboutUs/index.scss";
 
 class AboutUs extends Component {
-  state = {};
   render() {
     return (
       <>
@@ -11,7 +10,7 @@ class AboutUs extends Component {
         <div className="container">
           <div className="text-wrapper">
             <p className="aboutus-text">About us</p>
-            <small className="aboutus-text">
+            <small className="aboutus-text" id="about-us-first-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
               expedita at perferendis quas ea facilis dignissimos vitae quia.
             </small>
@@ -59,20 +58,20 @@ class AboutUs extends Component {
             </small>
           </div>
           <div className="about-us-second-paragraph-text-wrapper">
-            <p className="about-us-second-paragraph-text ">
+            <p className="about-us-second-paragraph-text about-us-second-paragraph-bold-text ">
               Lorem ipsum dolor sit adipisicing adipisicing elit:
             </p>
             <div className="about-us-list-text-wrapper">
-              <p className="about-us-second-paragraph-text ">
+              <p className="about-us-second-paragraph-text about-us-second-paragraph-bold-text">
                 praesentium sit itaque quos illo! Dignissimos
               </p>
-              <p className="about-us-second-paragraph-text ">
+              <p className="about-us-second-paragraph-text about-us-second-paragraph-bold-text ">
                 accusantium praesentium saepe.Et quidem voluptate accusantium,
               </p>
-              <p className="about-us-second-paragraph-text ">
+              <p className="about-us-second-paragraph-text about-us-second-paragraph-bold-text">
                 accusantium, praesentium sit itaque quos
               </p>
-              <p className="about-us-second-paragraph-text ">
+              <p className="about-us-second-paragraph-text about-us-second-paragraph-bold-text">
                 illum, numquam.numquam, distinctio beatae recusandae
               </p>
             </div>
